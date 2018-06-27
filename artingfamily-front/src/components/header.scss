@@ -3,8 +3,11 @@ $navItemY: 72px;
 
 
 @media (min-width: 1200px){
+    .navbar-fixed-top{
+        position: absolute;
+    }
     .navbar-nav li a{
-        color: #000;
+        color: #fff;
     }
     .navbar-brand>img {
         margin-left: 40px;
@@ -26,6 +29,11 @@ $navItemY: 72px;
                 margin: 0 auto;
                 text-align: center;
                 line-height: 14px;
+                color: #fff;
+            }
+            a:hover{
+                background: transparent;
+                border: 1px solid #b29180;
             }
             .active{
                 border: 1px solid #b29180;
@@ -35,4 +43,15 @@ $navItemY: 72px;
             }
         }
     }
+
+    .navbar-right li>a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    .nav>li>a:hover{
+        background: transparent;
+        border: 1px solid #b29180;
+    }
+
 }

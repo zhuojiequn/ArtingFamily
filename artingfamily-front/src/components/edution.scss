@@ -1,0 +1,61 @@
+@media (min-width:1200px){
+    .edution-l,.edution-r{
+        float: left;
+    }
+    .edution-l{
+        padding-right: 88px;
+        padding-bottom: 54px;
+        padding-top: 88px;
+        position: relative;
+        h3,.artingPic{
+            float: left;
+        }
+        h3{
+            width: 30px;
+            font-size: 28px;
+            line-height: 42px;
+            font-weight: 400;
+            margin:0;
+        }
+        .artingPic{
+            margin: 30px 0 0 38px;
+        }
+        a{
+            position: absolute;
+            right: 0;
+            display: block;
+            width: 18px;
+            font-size: 18px;
+            color: #333333;
+            text-decoration: none;
+            font-weight: 500;
+            line-height: 1;
+            img{
+                position: absolute;
+                top:-26px;
+                left: -17px;
+            }
+        }
+        .vedioOnlilne{
+            top: 0;
+        }
+        .course{
+            bottom: 0;
+
+        }
+    }
+    .edution-r{
+        margin-left: 94px;
+        position: relative;
+        p{
+            width: 574px;
+            color: #666666;
+            font-size: 12px;
+            line-height: 24px;
+        }
+        p:nth-child(1){
+            position: absolute;
+            top:240px;
+        }
+    }
+}
