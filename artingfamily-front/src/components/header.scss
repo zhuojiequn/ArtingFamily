@@ -1,0 +1,38 @@
+$navItemX: 32px;
+$navItemY: 72px;
+
+
+@media (min-width: 1200px){
+    .navbar-nav li a{
+        color: #000;
+    }
+    .navbar-brand>img {
+        margin-left: 40px;
+        margin-right: 112px;
+    }
+    .navbar-left{
+        li{
+            margin-right: $navItemX;
+            padding-top:13px;
+            a{  
+                display: block;
+                width: 32px;
+                padding:7px 8px !important;
+                height: $navItemY;
+                font-size: 12px;
+                -moz-border-radius: 15px; /* Firefox */
+                -webkit-border-radius: 15px; /* Safari 和 Chrome */
+                border-radius: 15px;
+                margin: 0 auto;
+                text-align: center;
+                line-height: 14px;
+            }
+            .active{
+                border: 1px solid #b29180;
+            }
+            .spacing span{
+                line-height: 64px;
+            }
+        }
+    }
+}
