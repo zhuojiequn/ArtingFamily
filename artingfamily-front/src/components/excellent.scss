@@ -1,7 +1,7 @@
 @media (min-width:1200px){
     .excellent{
-        min-height: 356px;
-        width: 1000px;  
+        position: relative;
+        min-height: 356px; 
         margin-top: 128px;      
         ul li {
             list-style: none;
@@ -46,6 +46,11 @@
             padding: 30px;
             width: 30px;
             margin: 0 auto;
+        }
+        .doMark{
+            position: absolute;
+            right: 130px;
+            bottom: 10px;
         }
     }
 }

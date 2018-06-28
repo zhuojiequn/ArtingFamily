@@ -1,0 +1,50 @@
+@media(min-width:1200px){
+    .banner{
+        position: relative;
+        img{
+            width: 1200px;
+        }
+        .mark{
+            position: absolute;
+            width:100%;
+            height: 100%;
+            z-index: 99;
+            background: #000;
+            opacity: .3;
+            left: 0;
+            top: 0;
+        }
+        .aboutUs{
+            width: 421px;
+            height:361px;
+            border: 4px solid #fff;
+            position: absolute;
+            z-index: 999;
+            left: 363px;
+            top:94px;
+            .content{
+                background: #fff;
+                opacity: .5;
+                width:376px;
+                height: 320px;
+                margin-left: 18px;
+                margin-top: 18px;
+                padding:52px 68px 0 68px;
+                span{
+                    display: block;
+                    width: 100%;
+                    color: #000;
+                    font-size: 30px;
+                    text-align: center;
+                    margin-bottom: 36px;
+                }
+                p{
+                    color: #000;
+                    font-size: 14px;
+                }
+            } 
+        }
+
+
+    }
+}

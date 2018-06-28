@@ -17,7 +17,7 @@ export default class Header extends Component{
                             <span className="icon-bar"></span>
                         </button>
                         <a className="navbar-brand" href="/">
-                            <img src="src/public/images/logo.jpg" className="navbar-brand__img" alt="" />
+                            <img src="src/public/images/logo.png" className="navbar-brand__img" alt="" />
                             </a>
                     </div>
                     {/* 菜单 */}
