@@ -1,0 +1,37 @@
+@media (min-width: 1200px){
+    .about-us{
+        padding-top:88px;
+        .us-infor{
+            width:100%;
+            .us-infor-con,.us-pic{
+                float: left;
+            }
+            h3,p{
+                float: left;
+            }
+            h3{
+                width:50px;
+                text-align: center;
+                font-size: 28px;
+                color: #3b3a3a;
+                line-height: 42px;
+                margin-top: -14px;
+            }
+            p{
+                padding-top: 76px;
+                width: 468px;
+                margin-left: 34px;
+                color: #666666;
+            }
+            .us-pic{
+                margin-left: 88px;
+            }
+
+        }
+        .us-pics{
+            ul li{
+                float: left;
+            }
+        }
+    }
+}
