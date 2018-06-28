@@ -1,3 +1,51 @@
 @media (min-width:1200px){
-    
+    .excellent{
+        min-height: 356px;
+        width: 1000px;  
+        margin-top: 128px;      
+        ul li {
+            list-style: none;
+        }
+        #main{
+            float: left;
+        }
+        h3{
+            float: right;
+            width: 28px;
+            font-size: 28px;
+            line-height: 42px;
+            font-weight: 400;
+            margin-top:90px;
+        }
+        #main {
+            height: 356px;
+        }
+        
+        #main ul li {
+            width: 150px;
+            height: 356px;
+            float: left;
+            position: relative;
+        }
+        
+        #main ul li div {
+            width: 100%;
+            height: 356px;
+        }
+        
+        #main ul li div.des {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        
+        #main ul li div.des h4 {
+            color: #FFF;
+            font-size: 30px;
+            padding: 30px;
+            width: 30px;
+            margin: 0 auto;
+        }
+    }
 }

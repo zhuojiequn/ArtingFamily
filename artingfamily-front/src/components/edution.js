@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import '../public/scss/base.scss';
 import './edution.scss';
 export default class Edution extends Component{
     render(){
@@ -25,7 +26,6 @@ export default class Edution extends Component{
                     陶瓷品牌鱼龙混杂,让很多消费者不知从何下手
                     </p>
                 </div>
-                <div className="clearfix"></div>
             </div>
         )
     }
