@@ -30,9 +30,9 @@ $navItemY: 72px;
                 text-align: center;
                 line-height: 14px;
                 color: #fff;
+                background: transparent !important;
             }
-            a:hover{
-                background: transparent;
+            a:hover,a:active{
                 border: 1px solid #b29180;
             }
             .active{
