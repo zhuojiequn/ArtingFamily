@@ -1,0 +1,33 @@
+@media (min-width: 1200px) {
+  body, html {
+    font-family: "STHeiti,MingLiu"; }
+  .container {
+    width: 1000px; } }
+
+@charset "UTF-8";
+@media (min-width: 1200px) {
+  .navbar-nav li a {
+    color: #000; }
+  .navbar-brand > img {
+    margin-left: 40px;
+    margin-right: 112px; }
+  .navbar-left li {
+    margin-right: 32px;
+    padding-top: 13px; }
+    .navbar-left li a {
+      display: block;
+      width: 32px;
+      padding: 7px 8px !important;
+      height: 72px;
+      font-size: 12px;
+      /* Firefox */
+      /* Safari 和 Chrome */
+      border-radius: 15px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 14px; }
+    .navbar-left li .active {
+      border: 1px solid #b29180; }
+    .navbar-left li .spacing span {
+      line-height: 64px; } }
+
