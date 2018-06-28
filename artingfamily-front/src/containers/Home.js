@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import Header from '../components/header';
+import Footer from '../components/footer';
 import Slider from '../components/slider';
 import AboutUs from '../components/about-us';
 import Edution from '../components/edution';
