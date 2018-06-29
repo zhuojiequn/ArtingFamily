@@ -10,7 +10,7 @@ export default class Footer extends Component{
                <div className="footer_top">
                   <div className="container">
                     <div className="footer_img">
-                       <img src="src/public/images/log.PNG" />
+                       <img src="src/public/images/logo.png" />
                     </div>
                     <div className="footer_lx">
                         <p>热线：400-123456</p>

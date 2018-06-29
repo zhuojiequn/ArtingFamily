@@ -1,0 +1,109 @@
+@media(min-width:1200px){
+    .Introduce{
+    .introduce_header{
+        position: relative;
+        p{
+            font-size: 40px;position: absolute;
+            left:576px;
+        }
+    }
+    .taoni{
+        background: #f6f5f5;
+        h2{
+            font-size: 28px;margin-left: 135px;margin-top:20px;
+            
+        }
+        div{
+            margin:35px 180px 20px 235px;
+            p{
+                font-size: 12px
+            }
+        }
+    }
+    .teach_order{
+        div{
+            float: left;margin-top: 85px;font-size: 24px;margin-right: 20px;
+            margin-bottom:85px;
+        }
+        .order1{
+            margin-left: 175px;
+        }
+        .order2{
+            margin-left: 75px;
+        }
+        ul{
+            float: left;margin-top: 85px;
+            li{
+                float: left;position: relative;width: 12px;
+                height: 79px;font-size: 12px;line-height: 26px;
+                margin-left: 60px;
+                span{
+                    position: absolute;;
+                    width: 20px;height: 20px;
+                }
+            }
+        }
+    }
+    .handfa_img{
+        text-align: center;
+        img{
+            display: inline-block;
+             height: 175px;
+        }  
+    }
+    .work_img{
+        margin-top:90px;
+    }
+    .love_tao{
+        margin-top: 105px;
+        margin-bottom:145px;
+        div{
+            float: left;
+        h2{
+            width: 150px;line-height: 45px;font-size: 26px;
+            position: relative;
+            span{
+                position: absolute;width: 20px;height: 20px;
+                top:0;right: 0;
+            }
+        }
+        p{
+            width: 420px;margin-left: 60px;margin-top:20px;
+            margin-right: 20px;
+        }
+        img{
+            height: 285px;float: right;margin-top: 30px;
+        }
+      }
+    }
+    .teach_product{
+        div{
+            overflow: hidden;margin-bottom:45px;
+            h2{
+                font-size: 30px;width: 30px;margin-left: 30px;
+                float: left;line-height: 30px;
+            }
+            p{
+                float: left;width: 350px;font-size: 12px;
+                margin:90px 0 0 50px;position: relative;
+            }
+        }
+        img{
+            width: 300px;
+        } 
+    }
+    .student_product{
+        div{
+            overflow: hidden;margin-bottom:45px;
+            h2{
+                font-size: 30px;width: 30px;margin-left: 30px;
+                float: left;line-height: 30px;
+            }
+            p{
+                float: left;width: 350px;font-size: 12px;
+                margin:90px 0 0 50px;position: relative;
+            }
+        }
+    }
+}
+}

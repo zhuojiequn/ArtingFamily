@@ -18,6 +18,14 @@ module.exports = {
                         minimize:true
                     }
                 }
+            },            
+            {
+                test: /\.(png|jpg|git)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                    },
+                ]
             },
             {
                 test: /\.(css|sass|scss)$/,

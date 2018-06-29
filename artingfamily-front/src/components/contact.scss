@@ -1,0 +1,40 @@
+@media(min-width:1200px){
+    .contact{
+        height: 270px;
+        background-image: url(../public/images/contactBack.png);
+        margin-top: 50px;
+        .contactCon{
+            width: 836px;
+            height: 140px;
+            margin: 68px auto;
+            h3{
+                font-size: 18px;
+                text-align: center;
+                margin-bottom:16px;
+            }
+            .contact-l,.contact-r,img,span,.conItem{
+                float: left;
+                font-size: 20px;
+            }
+            .contact-l{
+                margin-left: 86px;
+                margin-right: 260px;
+            }
+            .conItem{
+                margin-left: 26px;
+            }
+            span{
+                margin-left: 30px;
+            }
+            .conItem{
+                margin-top:-10px;
+            }
+            .conItem p{
+                line-height: 1;
+            }
+            .conItem p:nth-child(1){
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

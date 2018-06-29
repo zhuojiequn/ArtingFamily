@@ -18,10 +18,10 @@ export default class AboutUs extends Component{
                     </div>
                     <div className="us-pics">
                         <ul>
-                            <li><Link to="/"><img src="src/public/images/aboutUs01.png" /> </Link></li>
-                            <li><Link to="/"><img src="src/public/images/aboutUs02.png" /> </Link></li>
-                            <li><Link to="/"><img src="src/public/images/aboutUs03.png" /> </Link></li>
-                            <li><Link to="/"><img src="src/public/images/aboutUs04.png" /> </Link></li>
+                            <li><Link to="/about"><img src="src/public/images/aboutUs01.png" /> </Link></li>
+                            <li><Link to="/about"><img src="src/public/images/aboutUs02.png" /> </Link></li>
+                            <li><Link to="/about"><img src="src/public/images/aboutUs03.png" /> </Link></li>
+                            <li><Link to="/about"><img src="src/public/images/aboutUs04.png" /> </Link></li>
                             <div className="clearfix"></div>
                         </ul>
                     </div>
